@@ -11,7 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: '#64ffda',
+        navy: '#0a192f'
       },
+      screens: {
+        xmd: '968px'
+      }
     },
   },
   plugins: [],
