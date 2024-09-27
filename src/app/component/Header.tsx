@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React from 'react';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa6';
 import { Fira_Code } from 'next/font/google';
 import { motion } from 'framer-motion';
@@ -122,7 +122,8 @@ const Header = () => {
           variants={animateUp(1.5)}
           initial='hidden'
           animate='show'>
-          I'm a software developer specializing in crafting responsive, <br />
+          I&#39m a software developer specializing in crafting responsive,{' '}
+          <br />
           user-friendly web interfaces, with a focus on performance, <br />
           accessibility, and seamless user experience across devices.
         </motion.p>

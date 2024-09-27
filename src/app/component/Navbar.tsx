@@ -2,10 +2,9 @@
 
 import Link from 'next/link';
 import React from 'react';
-import { FaCode } from 'react-icons/fa';
 import Button from './Button';
 import { Fira_Code } from 'next/font/google';
-import { delay, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import logo from '../../../public/logo.ico';
 import Image from 'next/image';
 
