@@ -232,9 +232,9 @@ const Header = () => {
           </div>
         </motion.div>
 
-        <div className='leading-relaxed mt-8 max-w-2xl mx-auto text-center mb-10 flex gap-2 items-center'>
-          Crafted & Developed by{' '}
-          <span className='text-primary font-semibold uppercase'>Chidera</span>
+        <div
+          className={`${firacode.className} leading-relaxed mt-8 max-w-2xl mx-auto text-center mb-10 flex gap-2 items-center`}>
+          Crafted & Developed by Chidera
           <FaCode size={21} />
         </div>
       </div>
