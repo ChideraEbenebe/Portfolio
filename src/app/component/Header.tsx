@@ -227,9 +227,11 @@ const Header = () => {
             </p>
           </div>
           <div className='mt-10 mb-44'>
-            <button className='px-7 py-4 text-xl border border-primary rounded-md hover:bg-primary hover:text-slate-900 transition-all duration-700'>
-              Say Hello
-            </button>
+            <Link href={'mailto:ebenebechidera3@gmail.com'}>
+              <button className='px-7 py-4 text-xl border border-primary rounded-md hover:bg-primary hover:text-slate-900 transition-all duration-700'>
+                Say Hello
+              </button>
+            </Link>
           </div>
         </motion.div>
 
