@@ -122,8 +122,7 @@ const Header = () => {
           variants={animateUp(1.5)}
           initial='hidden'
           animate='show'>
-          I&#39m a software developer specializing in crafting responsive,{' '}
-          <br />
+          I am a software developer specializing in crafting responsive, <br />
           user-friendly web interfaces, with a focus on performance, <br />
           accessibility, and seamless user experience across devices.
         </motion.p>
