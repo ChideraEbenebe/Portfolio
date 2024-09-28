@@ -237,7 +237,7 @@ const Header = () => {
         <div className='leading-relaxed mt-5 max-w-2xl mx-auto text-center'>
           <ul className='flex items-center gap-10 xmd:hidden'>
             {socialLinks.map((link) => (
-              <li>
+              <li key={link.id}>
                 <Link
                   href={link.href}
                   target={link.target}
