@@ -234,6 +234,21 @@ const Header = () => {
           </div>
         </motion.div>
 
+        <div className='leading-relaxed mt-5 max-w-2xl mx-auto text-center'>
+          <ul className='flex items-center gap-10 xmd:hidden'>
+            {socialLinks.map((link) => (
+              <li>
+                <Link
+                  href={link.href}
+                  target={link.target}
+                  className='hover:text-primary text-slate-400 transition-all duration-500 hover:-translate-y-1'>
+                  {link.icon}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <div
           className={`${firacode.className} leading-relaxed mt-8 max-w-2xl mx-auto text-center mb-10 flex gap-2 items-center`}>
           Crafted & Developed by Chidera
